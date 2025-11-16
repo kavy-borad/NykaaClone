@@ -103,7 +103,7 @@ Install the project with Vs Code
 Clone the project
 
 ```bash
-  git clone https://github.com/DivyankaRai/mern_ecomm.git
+  git clone https://github.com/kavy-borad/NykaaClone.git
 ```
 
 Go to the project directory
@@ -119,9 +119,10 @@ Run project
 ```
 
 
+
 ## 🔗 Contact Me
 
-Divyanka Rai : (https://divyankarai.github.io/)
+kavy-borad : (https://github.com/kavy-borad)
 
 
 
