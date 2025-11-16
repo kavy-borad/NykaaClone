@@ -1,0 +1,34 @@
+.carr{
+    margin-top: 7%;
+}
+@media only screen and (max-width:395px)  {
+    .carr{
+        margin-top: 17%;
+    }
+    .carr img{
+        height: 140px;
+    }
+}
+@media only screen and (min-width:396px) and (max-width:570px){
+    .carr{
+        margin-top: 12%;
+    }
+    .carr img{
+        height: 180px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:571px) and (max-width:800px){
+    .carr{
+        margin-top: 9%;
+    }
+    .carr img{
+        height: 180px;
+        width: 100%;
+    }
+}
+/* @media only screen and (min-width:801px) and (max-width:900px){
+    .carr{
+        margin-top: 9%;
+    }
+} */

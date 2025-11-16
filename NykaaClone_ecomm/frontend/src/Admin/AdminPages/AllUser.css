@@ -1,0 +1,136 @@
+.users_main{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-top: 3%;
+}
+.users_main div{
+    width: 96%;
+    height: auto;
+    border-radius: 25px;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIQA6wMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAAAgMB/8QAGRABAQEBAQEAAAAAAAAAAAAAABEBEgIh/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwf/xAAXEQEBAQEAAAAAAAAAAAAAAAAAERIB/9oADAMBAAIRAxEAPwCGeTcnzybPKPQudJnlsPy3kapI2HjcwWpwRSCBU4IpG8hUoIpG8hU4IeN5CpQRSCBU4IpBAqcEUggVOCKQQKnBuKQchU4yKRnIVLfLOVt8l3yM96jvkvK2+WQSrZ5bnk+YbPKxjRI2HjeSLU43lTkchU4IpyOQqfLZD55byQqfI5U5ECp8jlSCBU+RypBAqfI5UggVPkcqQckKnyyKwchUoIpyOQqfLIryzkKlvlm+VoXcRKlvkvK0ZyJVcxuYfMbG3OkzGw+Y3lFpIIeCLFpI2GhuSFTginI5IVOCKcjkhU4IpyOSFTginI5IVOCKcjkhU4IpyOSFTginI5IVKCKcshCkgh4IQqcZFORyRKjvlkW5LyiVXMbmNzD5iudJmNho2C0kEPGwKTkQ8HIUkEPBApIIeCBSQQ8ECkgh4IFJBDwQKSCHggUkEPBApIyKciBU4IeCBU4NxSM3AqUZFNxkEqmZ8bmNzD5jNc6WNhoIVaWCHghSk5bDQQpSwQ0EKUsENBClLBDQQpSwQ0EKUsENBClLBDQQpSwQ0EKUkHJ4IUpIIeMhSkjNxTcZuFKnuFim4yFSqZjY3MNmMVzrIOTQ0KtJBmHghTReRyaCFWl5HJoIUpeRyeMhSl5HJ8wQpScjk8EKUnI5PBClJyOTwQpScjk0bClJyOTxkKmiRnKkEKaTjNxTcZuFKnuFim4WFSqZhswYfGK51mY2Njcwq0sbDRsKUkEPBClJBFIIU0nBFIIU0nBFIIU0nBFIIU0nBFIIU0nyIeNhTScEUjIU0SCHghSpwQ8ZClJC7im4yFSp7hYppYUpsPmM84fMc65VuNgNmFWsENGwpSiHzyIaWkgho2FKWMinLIUpIIeCFKWM3FORDRU8wRSCGipwRSMhopIIaNhSkjIpGQ0UkYeMKlJuF3FC6Uqe4U+lhUrfKmAMM8MYAVuNABoARWwMCjWgAAAgwAA0AAwMANYAoGAACgCF0oAE9FAEf//Z');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 12px;
+    padding-bottom: 31px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.users_main div span{
+    color: black;
+}
+.users_main div h2{
+    font-size: 19px;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+.users_main div button{
+    width: 60%;
+    height: 35px;
+    margin-left: 19.7%;
+    margin-top: 7%;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+@media only screen and (max-width:450px)  {
+    .users_main{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        margin-top: 10%;
+        /* border: 2px solid red; */
+    }
+    .users_main div{
+        width: 100%;
+    }
+    .users_main div span{
+        color: black;
+        font-size: 14px;
+        word-break: break-all;
+    }
+    .users_main div h2{
+        font-size: 17px;
+        margin-top: 5%;
+        margin-left: 13%;
+    }
+}
+@media only screen and (min-width:451px) and (max-width:610px){
+    .users_main{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top: 7%;
+    }
+    .users_main div{
+        width: 100%;
+    }
+    .users_main div span{
+        color: black;
+        font-size: 14px;
+        margin-right: 15px;
+        word-break: break-all;
+    }
+    .users_main div h2{
+        font-size: 17px;
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+}
+@media only screen and (min-width:611px) and (max-width:805px){
+    .users_main{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top: 5%;
+    }
+    .users_main div{
+        width: 100%;
+    }
+    .users_main div span{
+        color: black;
+        font-size: 14px;
+        margin-right: 15px;
+        word-break: break-all;
+    }
+    .users_main div h2{
+        font-size: 17px;
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (min-width:806px) and (max-width:1140px){
+    .users_main{
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin-top: 5%;
+    }
+    .users_main div{
+        width: 100%;
+    }
+    .users_main div span{
+        color: black;
+        font-size: 14px;
+        margin-right: 15px;
+        word-break: break-all;
+    }
+    .users_main div h2{
+        font-size: 17px;
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+}
+@media only screen and (min-width:941px) and (max-width:1040px){
+   
+}
